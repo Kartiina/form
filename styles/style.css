@@ -13,7 +13,7 @@ body{
     line-height: 1.2;
     width: 100%;
     min-height: 100vh;
-    background: url("./Ellipse.png") 100% 100% no-repeat, url("./Ellipser.png") 0% 0% no-repeat;
+    background: url("/img/Ellipse.png") 100% 100% no-repeat, url("/img/Ellipser.png") 0% 0% no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ body{
     height: 65%;
     width: 2px;
     background: #D9DBE9;
-    right: -25px;
+    right: -35px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -76,6 +76,7 @@ body{
 .details{
     margin-bottom: 15px;
     text-align: center;
+    width: 120%;
 }
 .details img{
     margin-bottom: 10px;
@@ -86,8 +87,7 @@ body{
     margin-bottom: 7px;
     color: #170F49;
 }
-.text1,
-.text2{
+h3{
     color: #6F6C90;
     font-size: 12px;
 }
@@ -101,7 +101,7 @@ body{
     height: 100%;
     border: none;
     background: #ffffff;
-    padding: 0 20px;
+    padding: 0 15px;
     border-radius: 25px;
     margin-bottom: 3px;
 }
@@ -121,6 +121,7 @@ body{
 input[type="date"]{
     color: #6F6C90;
     font-family: 'DM Sans', sans-serif;
+    bottom: 20px;
 }
 .button{
     display: inline-block;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Form</title>
 </head>
 <body>
@@ -18,47 +18,36 @@
         <div class="content">
             <div class="left-side">
                 <div class="address details">
-                    <img src="./map.png" alt="map" width="20px">
+                    <img src="./img/map.png" alt="map" width="20px">
                     <div class="topic">Address</div>
-                    <div class="text1">Moscow</div>
-                    <div class="text2">9 Parkovaya st, 36</div>
+                    <h3>Moscow</h3>
+                    <h3>9 Parkovaya st, 36</h3>
                 </div>
                 <div class="phone details">
-                    <img src="./phone.png" alt="phone" width="20px">
+                    <img src="./img/phone.png" alt="phone" width="20px">
                     <div class="topic">Phone</div>
-                    <div class="text1">8-800-241-24-05</div>
+                    <h3>8-800-241-24-05</h3>
                 </div>
                 <div class="email details">
-                    <img src="./email.png" alt="email" width="20px">
+                    <img src="./img/email.png" alt="email" width="20px">
                     <div class="topic">Email</div>
-                    <div class="text1">support@site.com</div>
+                    <h3>support@site.com</h3>
                 </div>
             </div>
             <div class="right-side">
-                <form action="send_mail.php" id="form" name="form" method="POST" data-netlify="true">
+                <form action="https://script.google.com/macros/s/AKfycbw_NcldnpIb17GSCfVod_KEwZyf-N8eBwFiyCYEDQtWhpfJrS4PjmhAKgkRtAw_HH297A/exec" method='post'>
                     <div class="input-box">
-                        <input type="text" placeholder="Your Name" autofocus id="name" name="name" data-reg="^[А-ЯЁ][а-яё]*$">
+                        <input type="text" placeholder="Your Name" autofocus name="name" data-reg="^[А-ЯЁ][а-яё]*$">
                     </div>
                     <div class="input-box">
                         <label for="age">Date of Birth</label>
-                        <input id="age" type="date" min="1950-01-01" max="2010-01-01"><br>
-                    </div>
-                    <!-- <div class="input-box">
-                        <label for="gender">Gender</label>
-                        <div class="check">
-                            <input type="radio" id="female" name="gender" value="female" checked>
-                            <label for="female">Female</label>
-                        </div>
-                        <div class="check">
-                            <input type="radio" id="male" name="gender" value="male">
-                            <label for="male">Male</label>
-                        </div>
-                    </div> -->
-                    <div class="input-box">
-                        <input type="text" placeholder="8-(800)234-2405" id="phone" name="phone" data-reg="^((\+7|7|8)+([0-9]){10})$">
+                        <input id="age" type="date" name="dateBRD" min="01-01-1950" max="01-01-2010"><br>
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Your Mail ID" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+                        <input type="tel" placeholder="8-(800)234-2405" id="phone" name="phone" data-reg="^((\+7|7|8)+([0-9]){10})$">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Your Mail" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
                     </div>
                     <div class="input-box message-box">
                         <textarea placeholder="Your question" required name="message" cols="30" rows="5"></textarea>
@@ -70,6 +59,6 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
