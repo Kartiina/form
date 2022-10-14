@@ -76,7 +76,6 @@ body{
 .details{
     margin-bottom: 15px;
     text-align: center;
-    width: 120%;
 }
 .details img{
     margin-bottom: 10px;
@@ -118,10 +117,12 @@ h3{
 .message-box{
     min-height: 60px;
 }
+input[type="tel"]{
+    margin-top: 10px;
+}
 input[type="date"]{
     color: #6F6C90;
     font-family: 'DM Sans', sans-serif;
-    bottom: 20px;
 }
 .button{
     display: inline-block;
