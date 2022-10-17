@@ -24,7 +24,6 @@ data-reg_mail = "^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
 <p align="center">
   <img src="https://github.com/Kartiina/form/blob/master/screenshots/small.png" width="600" height="550" />
 </p>
-#
 После отправки формы все данные отправляются в заранее созданную и подключенную гугл-таблицу:<br /><br />
 <p align="center">
   <img src="https://github.com/Kartiina/form/blob/master/screenshots/table.png" width="600" height="550" />
