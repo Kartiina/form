@@ -15,7 +15,7 @@ data-reg_phone = "^((\+7|7|8)+([0-9]){10})$"
 data-reg_mail = "^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
 ```
 #
-В случае неправильного заполнения формы, легко понять что именно было заполнено не верно:<br /><br />
+В случае неправильного заполнения формы, легко понять что именно было заполнено неверно:<br /><br />
 ![2nd Screen](https://github.com/Kartiina/form/blob/master/screenshots/wrong.png "Wrong fill")
 >Если что-то было введено не верно форма не отправится, пока не будут исправлены соответствующие ошибки
 #
@@ -24,6 +24,7 @@ data-reg_mail = "^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
 <p align="center">
   <img src="https://github.com/Kartiina/form/blob/master/screenshots/small.png" width="600" height="550" />
 </p>
+<br />
 После отправки формы все данные отправляются в заранее созданную и подключенную гугл-таблицу:<br /><br />
 <p align="center">
   <img src="https://github.com/Kartiina/form/blob/master/screenshots/table.png" width="600" height="550" />
